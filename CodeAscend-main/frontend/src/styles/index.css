@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  color: #151515;
+  background-color: #FAFAFC;
+  font-family: 'Nunito Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --background: #FAFAFC;
+  --surface: #FFFFFF;
+  --surface-secondary: #F5F4F7;
+  --surface-purple: #F5F0FF;
+  --foreground: #151515;
+  --muted-foreground: #5E5E68;
+  --border: #E7E5EA;
+  --primary: #8B3DFF;
+  --primary-hover: #7C2AE8;
+  --primary-soft: #E9D5FF;
+  --success: #16A34A;
+  --warning: #D97706;
+  --danger: #DC2626;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background-color: #FAFAFC;
+  color: #151515;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', sans-serif;
+}
+
+code, pre, .font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom Scrollbar for Arena Light */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8F8FB;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E5E2EA;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8B3DFF;
+}

@@ -1,0 +1,7 @@
+spring:
+  kafka:
+    listener:
+      auto-startup: false
+    properties:
+      max.block.ms: 100
+      request.timeout.ms: 100
