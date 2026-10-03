@@ -198,7 +198,7 @@ public class ProblemService {
             User user = userRepository.findById(currentUserId).orElse(null);
             if (user != null) {
                 userRating = user.getRating();
-            }
+            } 
 
             long acCount = submissionRepository.countByUserIdAndProblemIdAndStatus(
                     currentUserId, problem.getId(), SubmissionStatus.ACCEPTED);
